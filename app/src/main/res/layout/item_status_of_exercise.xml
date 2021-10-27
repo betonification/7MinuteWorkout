@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@+id/tvItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_margin="1dp"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:padding="3dp"
+    android:background="@drawable/item_circular_background_grey"
+    tools:text="1">
+
+</TextView>

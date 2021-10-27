@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/circular_progress_bar.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/circular_progress_gray.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/ic_done.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/item_circular_bacground_grey.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/item_circular_background_grey.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/item_circular_color_accent_background.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/item_circular_color_accent_border_thin.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/item_color_accent_border_ripple_background.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/radio_group_background.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/rg_button_text_color_selector.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/drawable/selected_rg_button_background.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/activity_bmi.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/activity_bmiactivity.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/activity_body_mass.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/activity_exercise_acivity.xml" value="0.2703804347826087" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/activity_finish.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/activity_history.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/activity_select_exercises.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/dialog_custom_back_confirmation.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/dialog_select_exercises.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/item_history.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/item_history_row.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/item_select_exercise.xml" value="0.359375" />
+        <entry key="..\:/Users/Guest/AndroidStudioProjects/7MinuteWorkout/app/src/main/res/layout/item_status_of_exercise.xml" value="0.359375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

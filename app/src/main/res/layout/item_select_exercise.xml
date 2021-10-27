@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llItemSelectExercise"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvExerciseNumber"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:text="1."
+            android:textSize="16sp"
+            android:gravity="center|start"
+            android:paddingStart="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvExerciseNameSelect"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            tools:text="exercise1"
+            android:textSize="16sp"
+            android:gravity="center|start"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/defaultTextColor"/>
+
+        <CheckBox
+            android:id="@+id/cbSelectExercise"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            style="@style/Theme.7MinuteWorkout"/>
+
+
+</LinearLayout>
