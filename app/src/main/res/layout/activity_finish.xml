@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,47 +14,57 @@
         android:background="@color/white"/>
 
     <TextView
+        android:id="@+id/tvWellDone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="WELL DONE"
+        android:layout_below="@+id/toolbar_finish_activity"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
-        android:textSize="33sp"
+        android:text="WELL DONE"
         android:textColor="@color/colorAccent"
+        android:textSize="33sp"
         android:textStyle="bold"
-        android:layout_marginBottom="20dp"/>
+        android:layout_above="@+id/llFinished"/>
 
     <LinearLayout
+        android:id="@+id/llFinished"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/item_circular_color_accent_border"
-        android:layout_marginBottom="30dp">
+        android:gravity="center">
 
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:contentDescription="@string/image"
-            android:src="@drawable/ic_done"/>
+            android:src="@drawable/ic_done" />
 
     </LinearLayout>
 
     <TextView
+        android:id="@+id/tvWorkoutDone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/llFinished"
         android:gravity="center"
         android:text="Your workout is done!"
-        android:textColor="@color/black"
+        android:textColor="@color/defaultTextColor"
         android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/tvTakeABrake"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWorkoutDone"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="Take a brake now"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:layout_marginBottom="20dp"/>
+        android:textColor="@color/defaultTextColor"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnFinish"
@@ -64,6 +74,9 @@
         android:textSize="16sp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"/>
 
-</LinearLayout>
+</RelativeLayout>

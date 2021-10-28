@@ -10,7 +10,6 @@ import kotlinx.android.synthetic.main.item_status_of_exercise.view.*
 
 class ExerciseStatusAdapter(val items: ArrayList<ExerciseModel>, val context: Context) : RecyclerView.Adapter<ExerciseStatusAdapter.ViewHolder>(){
 
-
     class ViewHolder(view:View) : RecyclerView.ViewHolder(view){
         val tvItem = view.tvItem
     }
